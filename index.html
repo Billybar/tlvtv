@@ -50,6 +50,19 @@
     <link href="assets/lib/semantic-ui-transition/transition.min.css" rel="stylesheet">
     <!-- <link href="assets/css/theme.css" rel="stylesheet"> -->
     <link href="assets/css/theme-rtl.css" rel="stylesheet">
+    
+    <style>
+      /* Settings for small screens only (Mobile) */
+      @media (max-width: 768px) {
+        #bigcartel-header .bg-holder {
+          /* Changes image behavior on mobile */
+          background-size: contain !important;    /* Maintains logo proportions */
+          background-repeat: no-repeat !important; /* Prevents logo repetition */
+          background-position: center center !important; /* Centers the logo exactly */
+          background-color: #000000 !important;   /* Colors the rest in black */
+        }
+      }
+    </style>
 
     <!-- ===============================================-->
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -302,8 +315,8 @@
             <div class="googlemap min-vh-50 h-100" data-latlng="32.06620088229377, 34.77388166924103,13z" data-scrollwheel="false" data-icon="assets/img/map-marker.png" data-zoom="17" data-theme="Default">
               <div class="marker-content py-3">
                 <h5> TLVTV </h5>
-                <p> מתחם התחנה
-                  <br/> נווה צדק, תל אביב </p>
+                <p> נחמני 16
+                  <br/> תל אביב </p>
               </div>
             </div>
           </div>
