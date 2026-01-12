@@ -16654,3 +16654,13 @@ a.text-white:hover, a.text-white:focus {
   font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
 }
 /*# sourceMappingURL=theme-rtl.css.map */
+
+/* Settings for small screens only (Mobile) - Header fix */
+@media (max-width: 768px) {
+  #bigcartel-header .bg-holder {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-color: #000000 !important;
+  }
+}
