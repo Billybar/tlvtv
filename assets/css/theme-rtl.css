@@ -16655,8 +16655,8 @@ a.text-white:hover, a.text-white:focus {
 }
 /*# sourceMappingURL=theme-rtl.css.map */
 
-/* Settings for small screens only (Mobile) - Header fix */
-@media (max-width: 768px) {
+/* Settings for Mobile and Tablets (up to iPad Pro landscape) */
+@media (max-width: 1024px) {
   #bigcartel-header .bg-holder {
     background-size: contain !important;
     background-repeat: no-repeat !important;
