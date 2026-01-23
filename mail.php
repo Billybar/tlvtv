@@ -10,7 +10,7 @@ if (isset($_POST['submit'])) {
 
     $message .= "\n\n" . $user_name . ' - ' . $phone;
     $headers = 'From: ' . $emailFrom;
-    $mailTo = 'main@tlvtv.co.il';
+    $mailTo = 'sharon@tlvtv.co.il';
 
     mail($mailTo, $user_name, $message, $headers);
 
